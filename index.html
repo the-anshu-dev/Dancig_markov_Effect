@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dancing Markov Effect</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="starting">
+  <button id="start">Start</button>
+</div>
+<div class="loading hidden">Loading...</div>
+<div class="visualization hidden">
+</div>
+<nav class="hidden">
+  <button id="g1" class="active">Effect No. 1</button>
+  <button id="g2">Effect No. 2</button>
+  <button id="g3">Effect No. 3</button>
+</nav>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/buckets/1.90.0/buckets.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/Tonejs/Tone.js@r10/build/Tone.min.js'></script>
+<script src='https://cdn.rawgit.com/Tonejs/MidiConvert/c1715ce9/build/MidiConvert.js'></script>
+<script src='https://cdn.rawgit.com/tambien/StartAudioContext/8da8637e/StartAudioContext.js'></script>
+<script src='https://d3js.org/d3.v4.min.js'></script>
+<script src='https://cdn.rawgit.com/teropa/Piano/fix-tone-extern/build/Piano.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
